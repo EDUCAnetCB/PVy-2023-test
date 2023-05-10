@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.color-r {
+  background-color: lightcoral;
+  grid-area: R;
+}
+
+.color-o {
+  background-color: lightsalmon;
+  grid-area: O;
+}
+
+.color-g {
+  background-color: lightgreen;
+  grid-area: G;
+}
+
+.color-t {
+  background-color: aqua;
+  grid-area: T;
+}
+
+.color-b {
+  background-color: lightskyblue;
+  grid-area: B;
+}
+
+.color-v {
+  background-color: violet;
+  grid-area: V;  
+}
+
+.color-p {
+  background-color: lightpink;
+  grid-area: P;  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(34, 20px);
+  grid-template-rows: repeat(21, 20px);
+  grid-template-areas: 
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R O O O O O O O O O O O O O"
+    "R R R R R R R R R R R R R R R R R R R R R B B B V V G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R B B B V V G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R B B B . P G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R T T T T T G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R T T T T T G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R T T T T T G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R T T T T T G G G G G G G G"
+    "R R R R R R R R R R R R R R R R R R R R R T T T T T G G G G G G G G"
+}
